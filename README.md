@@ -1,8 +1,8 @@
 # SpreeBrCommon
 
-[![Build Status](https://travis-ci.org/ddomingues/spree_br_common.svg)](https://travis-ci.org/ddomingues/spree_br_common)
-[![Code Climate](https://codeclimate.com/github/ddomingues/spree_br_common/badges/gpa.svg)](https://codeclimate.com/github/ddomingues/spree_br_common)
-[![Test Coverage](https://codeclimate.com/github/ddomingues/spree_br_common/badges/coverage.svg)](https://codeclimate.com/github/ddomingues/spree_br_common)
+[![Build Status](https://travis-ci.org/ddomingues/solidus_br_common.svg)](https://travis-ci.org/ddomingues/solidus_br_common)
+[![Code Climate](https://codeclimate.com/github/ddomingues/solidus_br_common/badges/gpa.svg)](https://codeclimate.com/github/ddomingues/solidus_br_common)
+[![Test Coverage](https://codeclimate.com/github/ddomingues/solidus_br_common/badges/coverage.svg)](https://codeclimate.com/github/ddomingues/solidus_br_common)
 
 This extension has goal to provide common aspects as cities, extras address informations and some seeds to Brazil.
 
@@ -23,17 +23,17 @@ This extension has goal to provide common aspects as cities, extras address info
 
 # Installation
 
-Add spree_br_common to your Gemfile:
+Add solidus_br_common to your Gemfile:
 
 ```ruby
-gem 'spree_br_common'
+gem 'solidus_br_common'
 ```
 
 Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
-bundle exec rails g spree_br_common:install
+bundle exec rails g solidus_br_common:install
 ```
 
 # Testing
@@ -49,7 +49,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_br_common/factories'
+require 'solidus_br_common/factories'
 ```
 
 Copyright (c) 2015 Diego Domingues, released under the New BSD License

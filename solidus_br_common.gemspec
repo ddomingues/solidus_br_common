@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_br_common'
+  s.name        = 'solidus_br_common'
   s.version     = '3.0.1'
   s.summary     = 'Brazil common aspects'
   s.description = 'This extension has goal to provide common aspects as cities, extras address informations and some seeds to Brazil'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.author    = 'Diego Domingues'
   s.email     = 'diego.domingues16@gmail.com'
-  s.homepage  = 'https://github.com/ddomingues/spree_br-common'
+  s.homepage  = 'https://github.com/ddomingues/solidus_br_common'
 
   s.files        = `git ls-files`.split("\n")
   s.test_files   = `git ls-files -- spec/*`.split("\n")
