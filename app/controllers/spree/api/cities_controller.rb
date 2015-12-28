@@ -7,13 +7,10 @@ module Spree
 
       def index
         @cities = scope.ransack(params[:q]).result.
-          includes(:state).order('name ASC')
+          includes(:state).order(name: :asc).
+          page(params[:page]).per(params[:per_page])
 
-        if params[:page] || params[:per_page]
-          @cities = @cities.page(params[:page]).per(params[:per_page])
-        end
-
-        city = @cities.last
+        city = City.order(updated_at: :asc).last
         if stale?(city)
           respond_with(@cities)
         end
