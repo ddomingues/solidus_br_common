@@ -1,19 +1,18 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: '3-0-stable'
-# Provides basic authentication functionality for testing parts of your engine
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+gem 'solidus',              '~> 1.1'
+gem 'solidus_auth_devise',  '~> 1.2', '>= 1.2.3'
 
 group :test do
-  gem 'rspec-activemodel-mocks', '~> 1.0.1'
+  gem 'rspec-activemodel-mocks', '~> 1.0.2'
   gem 'rspec-collection_matchers', '~> 1.1.2'
-  gem 'capybara-webkit', '~> 1.5.1'
-  gem 'capybara-screenshot', '~> 1.0.9'
-  gem 'shoulda-matchers', '~> 2.8.0'
-  gem 'poltergeist', '~> 1.6.0'
+  gem 'capybara-webkit', '~> 1.7', '>= 1.7.1'
+  gem 'capybara-screenshot', '~> 1.0', '>= 1.0.11'
+  gem 'shoulda-matchers', '~> 3.0', '>= 3.0.1'
+  gem 'poltergeist', '~> 1.8', '>= 1.8.1'
   gem 'codeclimate-test-reporter', require: nil
-  gem 'vcr', '~> 2.9.3'
-  gem 'webmock', '~> 1.21.0'
+  gem 'vcr', '~> 3.0', '>= 3.0.1'
+  gem 'webmock', '~> 1.22', '>= 1.22.3'
   gem 'byebug'
 end
 
