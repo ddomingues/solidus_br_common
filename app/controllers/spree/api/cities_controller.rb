@@ -1,7 +1,7 @@
 module Spree
   module Api
     class CitiesController < Spree::Api::BaseController
-      skip_before_filter :authenticate_user
+      skip_before_action :authenticate_user
 
       def index
         @cities = scope.ransack(params[:q]).result.
