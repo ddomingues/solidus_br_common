@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_core', '~> 3.0', '>= 3.0.0'
+  s.add_runtime_dependency 'solidus_core', '~> 1.1'
   s.add_runtime_dependency 'cpf_cnpj', '~> 0.2', '>= 0.2.1'
   s.add_runtime_dependency 'jc-validates_timeliness', '~> 3.1', '>= 3.1.1'
   s.add_runtime_dependency 'rest-client', '~> 1.8', '>= 1.8.0'
