@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/ddomingues/solidus_br_common.svg)](https://travis-ci.org/ddomingues/solidus_br_common)
 [![Code Climate](https://codeclimate.com/github/ddomingues/solidus_br_common/badges/gpa.svg)](https://codeclimate.com/github/ddomingues/solidus_br_common)
 [![Test Coverage](https://codeclimate.com/github/ddomingues/solidus_br_common/badges/coverage.svg)](https://codeclimate.com/github/ddomingues/solidus_br_common)
+[![Dependency Status](https://gemnasium.com/ddomingues/solidus_br_common.svg)](https://gemnasium.com/ddomingues/solidus_br_common)
 
 This extension has goal to provide common aspects as cities, extras address informations and some seeds to Brazil.
 
