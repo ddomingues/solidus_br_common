@@ -1,14 +1,19 @@
 pt-BR:
   activerecord:
     attributes:
-      spree/address:
+      spree/address: &address
         number: Número
         district: Bairro
-      spree/user:
+      spree/user: &user
         cpf: CPF
         date_of_birth: Data de Nascimento
+        phone: Telefone
+        first_name: Nome
+        last_name: Sobrenome
   spree:
     date_picker:
       js_mask: 00/00/0000
       format: '%d/%m/%Y'
     full_name: Nome Completo
+    <<: *user
+    <<: *address
