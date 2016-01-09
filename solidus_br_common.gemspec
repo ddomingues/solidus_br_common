@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_br_common'
-  s.version     = '1.1.2'
+  s.version     = '1.1.3'
   s.summary     = 'Brazil commons aspects'
   s.description = 'This extension has goal to provide common aspects as cities, extras address information and some seeds to Brazil'
   s.required_ruby_version = '>= 2.0.0'
