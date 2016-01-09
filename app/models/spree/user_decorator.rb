@@ -3,7 +3,7 @@ require 'validates_timeliness'
 
 Spree::User.class_eval do
 
-  validates_presence_of :phone
+  validates_presence_of :phone, :cpf
   validates :date_of_birth,
             presence: true,
             timeliness: {
@@ -11,7 +11,6 @@ Spree::User.class_eval do
               on_or_after: lambda { 100.years.ago.at_midnight },
               type: :datetime
             }
-  validates :cpf, presence: true
   validates :first_name, :last_name, presence: true, length: {maximum: 100}
   validates :phone, :alternative_phone, length: {maximum: 11}
   validate :valid_cpf
